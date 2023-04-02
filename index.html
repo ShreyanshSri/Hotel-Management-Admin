@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Hotel Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+    <section id="header">
+     
+       <a href="">Admin Portal</a>
+        <div>
+            <ul id = "navbar">
+                <li><a href="">Bookings</a> </li>
+                <li><a href="">View</a> </li>
+
+            </ul>
+        </div>
+       
+    </section>
+
+    <section>
+       <div id = "roomscard"> 
+        <div class="card">
+            <img src="images/img 1.jpg" alt="" style="width: 100%;">
+            <div class="card_content">
+                 <h4><b>Deluxe Room A</b></h4>
+                 <span>₹ 100/hr</span> 
+            </div>
+            <div class="btn" id="btn1"><button>Book Now</button></div>
+        </div>
+
+        <div class="card">
+            <img src="images/img 2.jpg" alt="" style="width: 100%;">
+            <div class="card_content">
+                 <h4><b>Deluxe Room B</b></h4>
+                 <span>₹ 80/hr</span>
+            </div>
+            <div class="btn" id="btn2"><button >Book Now</button></div>
+        </div>
+
+        <div class="card">
+            <img src="images/img 3.jpg" alt="" style="width: 100%;">
+            <div class="card_content">
+                 <h4><b>Deluxe Room C</b></h4>
+                 <span>₹ 50/hr</span>
+            </div>
+            <div class="btn" id="btn3"><button>Book Now</button></div>
+        </div>
+       </div>
+
+    </section>
+
+    <section>
+        <div class="forms-group" id="form1">
+            <h4>Bookings and Contact</h4>
+                <form action="">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="forms">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="forms">
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" class="forms">
+            </div>
+            <div>
+                <label for="check-in">Check In</label>
+                 <input type="date" name="check-in" id="check-in" class="forms">
+            </div>
+            <div>
+                <label for="check-out">Check Out</label>
+                 <input type="date" name="check-out" id="check-out" class="forms">
+            </div>
+            <div class="btn">
+                <button class="btn" id = "formSubmit">Submit</button>
+            </div>
+        </form>
+        </div>
+    </section>
+
+    <section>
+        <div class="view">
+            <h3>Hotel Bookings</h3>
+
+        </div>
+    </section>
+
+    
+     </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
