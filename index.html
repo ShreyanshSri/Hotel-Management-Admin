@@ -59,7 +59,7 @@
     <section>
         <div class="forms-group" id="form1">
             <h4>Bookings and Contact</h4>
-                <form action="">
+                <form action="" onsubmit="click.preventDefault(); validate();">
             <div>
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" class="forms">
@@ -90,7 +90,33 @@
     <section>
         <div class="view">
             <h3>Hotel Bookings</h3>
-
+             <div id="cards">
+                <div class="card">
+                    
+                    <div class="card_content">
+                         <h5>Name : Shreyansh Srivastava</h5>
+                    </div>
+                    <div class="card_content">
+                        <h5>Emai : Shreyanshsri2812@gmail.com</h5>
+                   </div>
+                   <div class="card_content">
+                    <h5>Phone : 7985737698</h5>
+                   </div>
+                   <div class="card_content">
+                    <h5>Check-in : 28-11-2023</h5>
+                   </div>
+                   <div class="card_content">
+                    <h5>check-out : 25-12-2023</h5>
+                   </div>
+                   <div id="btn">
+                    <div class="btn" id=""><button>Edit</button></div>
+                    <div class="btn" id=""><button>Delete</button></div>
+                   </div>
+                   
+                </div>
+                                
+              </div>
+              
         </div>
     </section>
 
